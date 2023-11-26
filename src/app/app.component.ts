@@ -5,8 +5,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-calendario',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './calendario.component.html',
-  styleUrl: './calendario.component.css'
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
 })
 
 export class CalendarioComponent implements OnInit {
