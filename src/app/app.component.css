@@ -1,0 +1,36 @@
+.calendario-dias {
+    display: grid;
+    grid-template-columns: repeat(7, 15rem);
+    grid-gap: 0.8rem;
+    background-color: #fff;
+    color: #444;
+    padding: 1rem;
+    justify-content: center;
+    border: 0.1rem solid #ccc;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+}
+
+.calendario-titulo {
+    display: block;
+    justify-content: center;
+    background-color: #6b6b6b;
+    color: #fff;
+}
+
+.calendario-titulo-mes-ano {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 4rem;
+}
+
+.calendario-dia-nao-faz-parte-mes-atual {
+    color: #b4b4b4;
+}
+
+div button {
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+}
