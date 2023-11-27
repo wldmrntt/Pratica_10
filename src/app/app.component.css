@@ -1,3 +1,7 @@
+:root {
+  font-size: 62.5%
+}
+
 .calendario-dias {
     display: grid;
     grid-template-columns: repeat(7, 15rem);
